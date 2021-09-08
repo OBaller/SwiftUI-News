@@ -14,6 +14,7 @@
 		B43CE25F26E82698008FC168 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43CE25E26E82697008FC168 /* NetworkManager.swift */; };
 		B43CE26226E829A2008FC168 /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43CE26126E829A2008FC168 /* PostData.swift */; };
 		B43CE26526E841FB008FC168 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43CE26426E841FB008FC168 /* DetailView.swift */; };
+		B43CE26726E84BD5008FC168 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43CE26626E84BD4008FC168 /* WebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		B43CE25E26E82697008FC168 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		B43CE26126E829A2008FC168 /* PostData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
 		B43CE26426E841FB008FC168 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		B43CE26626E84BD4008FC168 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 			children = (
 				B43CE25126E821F5008FC168 /* ContentView.swift */,
 				B43CE26426E841FB008FC168 /* DetailView.swift */,
+				B43CE26626E84BD4008FC168 /* WebView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -166,6 +169,7 @@
 				B43CE25F26E82698008FC168 /* NetworkManager.swift in Sources */,
 				B43CE26226E829A2008FC168 /* PostData.swift in Sources */,
 				B43CE25226E821F5008FC168 /* ContentView.swift in Sources */,
+				B43CE26726E84BD5008FC168 /* WebView.swift in Sources */,
 				B43CE26526E841FB008FC168 /* DetailView.swift in Sources */,
 				B43CE25026E821F5008FC168 /* SwiftUI_NewsApp.swift in Sources */,
 			);
