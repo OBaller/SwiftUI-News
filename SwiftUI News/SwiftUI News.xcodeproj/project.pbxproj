@@ -13,6 +13,7 @@
 		B43CE25726E821FE008FC168 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B43CE25626E821FE008FC168 /* Preview Assets.xcassets */; };
 		B43CE25F26E82698008FC168 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43CE25E26E82697008FC168 /* NetworkManager.swift */; };
 		B43CE26226E829A2008FC168 /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43CE26126E829A2008FC168 /* PostData.swift */; };
+		B43CE26526E841FB008FC168 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43CE26426E841FB008FC168 /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		B43CE25826E821FE008FC168 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B43CE25E26E82697008FC168 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		B43CE26126E829A2008FC168 /* PostData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
+		B43CE26426E841FB008FC168 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				B43CE24F26E821F5008FC168 /* SwiftUI_NewsApp.swift */,
-				B43CE25126E821F5008FC168 /* ContentView.swift */,
+				B43CE26326E841C1008FC168 /* Views */,
 				B43CE25326E821FE008FC168 /* Assets.xcassets */,
 				B43CE25826E821FE008FC168 /* Info.plist */,
 				B43CE25526E821FE008FC168 /* Preview Content */,
@@ -81,6 +83,15 @@
 				B43CE26126E829A2008FC168 /* PostData.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		B43CE26326E841C1008FC168 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B43CE25126E821F5008FC168 /* ContentView.swift */,
+				B43CE26426E841FB008FC168 /* DetailView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,6 +166,7 @@
 				B43CE25F26E82698008FC168 /* NetworkManager.swift in Sources */,
 				B43CE26226E829A2008FC168 /* PostData.swift in Sources */,
 				B43CE25226E821F5008FC168 /* ContentView.swift in Sources */,
+				B43CE26526E841FB008FC168 /* DetailView.swift in Sources */,
 				B43CE25026E821F5008FC168 /* SwiftUI_NewsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
