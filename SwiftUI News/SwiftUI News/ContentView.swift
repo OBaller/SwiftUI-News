@@ -6,25 +6,21 @@
 //
 
 import SwiftUI
-struct Post:Identifiable {
-    let id, title: String
-}
-let posts = [
-    Post(id: "1", title: "SuperSport"),
-    Post(id: "2", title: "Sky News"),
-    Post(id: "3", title: "espn")
-]
-
 
 struct ContentView: View {
+   @ObservedObject var networkManager = NetworkManager()
+    
     var body: some View {
         NavigationView {
             
-            List(posts) { post in
+            List(networkManager.posts) { post in
                 Text(post.title)
             }
             .navigationBarTitle("Hot News!!!")
         }
+        .onAppear(perform: {
+            self.networkManager.fetchData()
+        })
     }
 }
 
