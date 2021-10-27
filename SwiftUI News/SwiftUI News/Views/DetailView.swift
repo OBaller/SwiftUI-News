@@ -2,7 +2,7 @@
 //  DetailView.swift
 //  SwiftUI News
 //
-//  Created by IBE on 08/09/2021.
+//  Created by naseem on 08/09/2021.
 //
 
 import SwiftUI
@@ -12,6 +12,7 @@ struct DetailView: View {
     
     var body: some View {
         WebView(urlString: url)
+       
     }
 }
 

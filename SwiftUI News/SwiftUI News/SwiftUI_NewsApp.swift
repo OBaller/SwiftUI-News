@@ -2,7 +2,7 @@
 //  SwiftUI_NewsApp.swift
 //  SwiftUI News
 //
-//  Created by IBE on 07/09/2021.
+//  Created by naseem on 07/09/2021.
 //
 
 import SwiftUI

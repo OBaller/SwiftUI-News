@@ -2,7 +2,7 @@
 //  WebView.swift
 //  SwiftUI News
 //
-//  Created by IBE on 08/09/2021.
+//  Created by naseem on 08/09/2021.
 //
 import WebKit
 import SwiftUI
